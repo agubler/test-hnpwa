@@ -6,12 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/ico" href="./img/hn.ico" sizes="32x32">
 <meta name="theme-color" content="#222127" /><link rel="manifest" href="manifest.eab897f52b618196b42b632d0b333598.json" /><style>/*!
- * 
+ *
  * [Dojo](https://dojo.io/)
  * Copyright [JS Foundation](https://js.foundation/) & contributors
  * [New BSD license](https://github.com/dojo/meta/blob/master/LICENSE)
  * All rights reserved
- * 
+ *
  */
 
 body,
@@ -257,5 +257,9 @@ p {
 		}
 	}())
 </script>
-<link rel="stylesheet" href="src/main.css" media="none" onload="if(media!='all')media='all'" /><script type="text/javascript" src="src/main.js"></script></body>
+<link rel="stylesheet" href="src/main.css" media="none" onload="if(media!='all')media='all'" /><script type="text/javascript" src="src/main.js"></script>
+<script>
+	fetch('https://api.hackerwebapp.com/news?page=1');
+</script>
+</body>
 </html>
